@@ -2,7 +2,7 @@ cdVector
 ========
 cdVector is a simple MPxNode plugin that calculates a vector between two matrix inputs.
 
-I've done two versions of the plugin. One version in C++ and one in Python.
+I've done two versions of the plugin. One is in in C++ and the other is in Python.
 
 Compiling:
 ------------
