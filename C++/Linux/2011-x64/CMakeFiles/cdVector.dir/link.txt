@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,cdVector.so -o cdVector.so CMakeFiles/cdVector.dir/cdVector.cpp.o CMakeFiles/cdVector.dir/pluginMain.cpp.o -L/X/tools/binlinux/aw/maya2011-x64/lib -lFoundation -lOpenMaya -lOpenMayaAnim -lOpenMayaUI -lOpenMayaRender -lGLU -lGL -lSM -lICE -lX11 -lXext -Wl,-rpath,/X/tools/binlinux/aw/maya2011-x64/lib 
