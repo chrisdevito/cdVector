@@ -20,15 +20,13 @@ Use:
 ------------
 Attributes:
 
-startMatrix : World Matrix of our starting obj.
-endMatrix : World Matrix of our ending obj.
-mag : Magnitude of vector.
-normAttr : Normalizes the outVector.
-outVec : Output Vector.
-ox : X value of vector.
-oy : Y value of vector.
-oz : Z value of vector.
+*startMatrix : World Matrix of our starting obj.
+*endMatrix : World Matrix of our ending obj.
+*mag : Magnitude of vector.
+*normAttr : Normalizes the outVector.
+*outVec : Output Vector.
+*ox : X value of vector.
+*oy : Y value of vector.
+*oz : Z value of vector.
 
 Just plug two world matrices into the node and it'll spit out a vector and a magnitude. If you want the vector normalized, just check that attribute.
-
-Good Luck!
