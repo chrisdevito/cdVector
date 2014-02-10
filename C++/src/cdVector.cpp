@@ -109,7 +109,7 @@ MStatus cdVector::initialize()
     endMat = mAttr.create("endMatrix", "endMat", MFnMatrixAttribute::kDouble);
     addAttribute(endMat);
 
-    mag = nAttr.create("endPoint", "ePoint", MFnNumericData::kFloat);
+    mag = nAttr.create("magnitude", "mag", MFnNumericData::kFloat);
     addAttribute(mag);
 
     normAttr = nAttr.create("normalize", "norm", MFnNumericData::kBoolean);
